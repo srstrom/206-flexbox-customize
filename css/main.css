@@ -97,25 +97,41 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/dog-bkgrnd.jpg) no-repeat center center fixed;
-  background-size: cover;
-   height: 100%;
-}
-
-body {
-  height: 100%;
-}
-
-.wrapper {
-  /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
-  margin: 0;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flex-items {
+    background: url(../img/dog-bkgrnd.jpg) no-repeat center center fixed;
+    background-size: cover;
+     height: 100%;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  .wrapper {
+    /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .flex-items {
+      background: #222;
+      background:rgba(0,0,0,0.7);
+      color: #fff;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 300;
+      font-size: 1.25em;
+      line-height: 1.5em;
+      border-radius: 10px;
+      padding: 0px 30px;
+      width: 30%;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+   }
+  
+  #content {
     background: #222;
     background:rgba(0,0,0,0.7);
     color: #fff;
@@ -125,60 +141,64 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 30%;
+    width: 300px;
     height: 300px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
- }
-
-#content {
-  background: #222;
-  background:rgba(0,0,0,0.7);
-  color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
-  line-height: 1.5em;
-  border-radius: 10px;
-  padding: 0px 30px;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-    }
-
-#content p span {
-  font-family: 'Lora', sans-serif;
-  text-decoration: none;
-}
-
- 
-#links {
-    background: #222;
-  background:rgba(0,0,0,0.7);
-  color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
-  line-height: 1.5em;
-  border-radius: 10px;
-  padding: 0px 30px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-a {
-    color: white;
+      }
+  
+  #content p span {
+    font-family: 'Lora', sans-serif;
     text-decoration: none;
-}
+  }
+  
+   
+  #links {
+    background: #222;
+    background:rgba(0,0,0,0.7);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    padding: 0px 30px;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #random {
+    background: #222;
+    background:rgba(0,0,0,0.7);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    padding: 0px 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-a:hover {
-    color:rgba(163, 171, 245, 0.658); 
-    text-decoration:none; 
-    cursor:pointer;  
-}
-
+  a {
+      color: white;
+      text-decoration: none;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  a:hover {
+      color:rgba(163, 171, 245, 0.658); 
+      text-decoration:none; 
+      cursor:pointer;  
+  }
 
 /* ==========================================================================
    Helper classes
